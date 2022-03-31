@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="file_modify:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/file_modify_jar</output-path>
+    <root id="archive" name="file_modify.jar">
+      <element id="module-output" name="file_modify" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-cli-1.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/annotations-20.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

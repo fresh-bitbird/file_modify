@@ -86,7 +86,8 @@ public class FileTimeMod {
 			return;
 		}
 		if (commandLine.hasOption("increase") && commandLine.hasOption("file-path")) {
-			fileTimeMod.filePath = Path.of(commandLine.getOptionValue("file-path"));
+			fileTimeMod.filePath = Path.of(System.getProperty("user.dir"),
+					commandLine.getOptionValue("file-path"));
 			if (commandLine.hasOption("last-time")) {
 				FileTime currentTime = fileTimeMod.getLastModifiedTime();
 				System.out.println("current last modified: " + currentTime);
@@ -108,7 +109,8 @@ public class FileTimeMod {
 				System.out.println("modified last modified: " + currentTime);
 			}
 		} else if (commandLine.hasOption("decrease") && commandLine.hasOption("file-path")) {
-			fileTimeMod.filePath = Path.of(commandLine.getOptionValue("file-path"));
+			fileTimeMod.filePath = Path.of(System.getProperty("user.dir"),
+					commandLine.getOptionValue("file-path"));
 			if (commandLine.hasOption("last-time")) {
 				FileTime currentTime = fileTimeMod.getLastModifiedTime();
 				System.out.println("current last modified: " + currentTime);
