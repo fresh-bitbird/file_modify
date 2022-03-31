@@ -119,7 +119,7 @@ class OptionAnalysis {
 						create and last modified option must be specified one or both of them.
 						other option is optional.
 						example:
-						    ftm -il -y 9 -m 1 -d 1, This will increase file last modified time 9 years 1 month and 1 day
+						    ftm -Il -y 9 -m 1 -d 1, This will increase file last modified time 9 years 1 month and 1 day
 						    ftm -Dc -m 10, This will only increase file create time 10 days
 						
 						""",
