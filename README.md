@@ -80,7 +80,7 @@ Same as above
 
 ### Time range after modifying
 
-From `1970-01-01-00:00:00` to `current system time`
+From `1970-01-01 00:00:00` to `current system time`
 
 ## License
 
