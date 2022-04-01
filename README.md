@@ -68,7 +68,7 @@ modified last modified: 2022-01-30T14:26:53.6314489Z
 ```
 
 but actually your last modified time before modified is
-`2022-03-31T22:26:53.6314489Z`, this is because your time-zone
+`2022-01-31T22:26:53.6314489Z`, this is because your time-zone
 is UTC+8, so result shown should be
 `[true system time] - 8`
 
