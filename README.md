@@ -1,8 +1,8 @@
 # file time modifier
 
 `ftm` is a tool to modify creation time and last modified
-time of a file or directory. Time units that could be modified
-as below:
+time of a file or directory. Especially for Windows.
+Time units that could be modified as below:
 
 | year | month |  day  |  hour  |  minute  |   second  |
 |:----:|:-----:|:-----:|:------:|:--------:|:---------:|
