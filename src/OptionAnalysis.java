@@ -139,7 +139,7 @@ class OptionAnalysis {
 						For example:
 						2020-03-31T11:00:08Z is the time on your screen, true time on your file attribute should be 2020-03-31T19:00:08Z if your time zone is UTC+8
 						
-						issue report: https://github.com/fresh-bitbird/file_modify/issues.""",
+						issue report: https://github.com/fresh-bitbird/file_time_modifier/issues.""",
 				true);
 	}
 
