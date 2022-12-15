@@ -21,13 +21,13 @@ Download using `wget` from GitHub release
 
 **exe**:
 ```
-wget https://github.com/fresh-bitbird/file_modify/releases/download/latest/ftm.exe
+wget https://github.com/notoookay/file_modify/releases/download/latest/ftm.exe
 ```
 
 **jar**:
 
 ```
-wget https://github.com/fresh-bitbird/file_modify/releases/download/latest/file_modify.jar
+wget https://github.com/notoookay/file_modify/releases/download/latest/file_modify.jar
 ```
 
 ## Usage
